@@ -50,6 +50,10 @@ a:hover {
   color: #4e4e4e;
 }
 
+.col-md-6 {
+    object-fit: cover;
+}
+
 .box-shadow,
 .paralax-mf,
 .service-box,
@@ -63,12 +67,25 @@ a:hover {
   box-shadow: 0 0 0 4px #cde1f8;
 }
 
+.project-link-btn {
+    width: 18%;
+    color: black;
+    transition: color .5s;
+}
+.project-link-btn:hover {
+    color: rgb(1, 88, 170);
+
+}
+
 .display-5 {
   font-size: 2.5rem;
   font-weight: 300;
   line-height: 1.1;
 }
 
+.project-description-text {
+    font-weight: 600;
+}
 .display-6 {
   font-size: 2rem;
   font-weight: 300;
@@ -90,7 +107,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #fb4141;
 }
 
 .overlay-mf {
@@ -321,6 +338,22 @@ a:hover {
   border-radius: 50%;
 }
 
+.btn-box-resume {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-box-resume a {
+    margin-left: 3.5px;
+    color: rgb(0, 0, 0);
+    transition: color .5s;
+    font-weight:600;
+}
+
+.btn-box-resume a:hover {
+    margin-left: 3.5px;
+    color: rgb(252, 55, 55);
+}
 /* Back to top button */
 
 .back-to-top {
@@ -697,7 +730,11 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #0078ff;
+  background-color: #ff6161;
+}
+
+.progress-bar {
+    background-color: #ff6060 !important;
 }
 
 /*======================================
@@ -791,6 +828,11 @@ a:hover {
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+}
+
+.w-more {
+    display: flex;
+    flex-direction: column;
 }
 
 .work-content .w-more {
@@ -1181,6 +1223,13 @@ footer .credits a {
   .counter-box {
     margin-bottom: 1.8rem;
   }
+}
+
+.about-mf {
+    background-color: rgb(228, 207, 207);
+}
+.portfolio-mf {
+    background-color: rgb(228, 207, 207);
 }
 
 @media (min-width: 767px) {
